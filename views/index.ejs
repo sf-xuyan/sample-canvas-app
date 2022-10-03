@@ -9,6 +9,11 @@
             img {
                 width: 100%;
             }
+            #title {
+                text-align: center;
+                padding: 10px 0;
+                margin: 0;
+            }
             #full-banner {
                 width: 100%;
                 padding: 5px;
@@ -38,7 +43,7 @@
                 var contextJSON = context['context'];
             }
         %>
-
+        <h3 id="title">Heroku Apps in Salesforce Canvas</h3>
         <div id="full-banner"><p>You're connected to this system as <%= user %>.</p></div>
 
         <img id="ctx" src="<%= url %>" />
