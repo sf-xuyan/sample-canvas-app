@@ -35,7 +35,7 @@
             var user = "No user";
             if (context != "") { 
                 var user = context['context']['user']['userName'];
-                var contextStr = JSON.stringify(context['context']);
+                var contextJSON = context['context'];
             }
         %>
 
@@ -44,7 +44,7 @@
         <img id="ctx" src="<%= url %>" />
 
         <script>
-            console.log("SFDC Raw Context: <%= contextStr %>");
+            console.log("SFDC Raw Context: <%= contextJSON %>");
         </script>
 
     </body>
