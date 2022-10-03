@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankcaron/sample-canvas-app.git"
+    "url": "git+https://github.com/sf-xuyan/sample-canvas-app.git"
   },
   "engines": {
     "node": "11.1.0"
   },
-  "author": "frankcaron",
+  "author": "sf-xuyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frankcaron/sample-canvas-app/issues"
+    "url": "https://github.com/sf-xuyan/sample-canvas-app/issues"
   },
-  "homepage": "https://github.com/frankcaron/sample-canvas-app#readme",
+  "homepage": "https://github.com/sf-xuyan/sample-canvas-app#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",

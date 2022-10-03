@@ -20,7 +20,7 @@ In order to use this app, you'll need to ensure that you have...
 
 ## Configure Salesforce
 
-First, you'll need to create a Connected App inside of Salesforce. When you're setting up your connected app, be sure to enable OAuth. The endpoint for auth is `https://yourapp.herokuapp.com/canvas-demo/`. You'll need the Consumer Secret that is generated after your connected app is provisioned. 
+First, you'll need to create a Connected App inside of Salesforce. When you're setting up your connected app, be sure to enable OAuth. The endpoint for auth is `https://sfdc-canvas.herokuapp.com/canvas-demo/`. You'll need the Consumer Secret that is generated after your connected app is provisioned. 
 
 ## Configure your Heroku app
 

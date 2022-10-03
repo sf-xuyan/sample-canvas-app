@@ -9,7 +9,7 @@ var port = process.env.PORT || process.argv[2] || 8080;
 var path = '';
 
 if (process.env.NODE_ENV === 'production') {
-	path = 'https://gentle-island-36589.herokuapp.com/';
+	path = 'https://sfdc-canvas.herokuapp.com/';
 } else {
     path = 'http://localhost:' + port;
 }
